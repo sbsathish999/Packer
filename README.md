@@ -31,24 +31,25 @@ Input Format
 The input file should contain multiple lines, with each line representing a test case. Each test case consists of the weight limit followed by a colon (:) and a list of items enclosed in parentheses. Each item is represented by its index number, weight, and cost, separated by commas.
 
 Example:
-
+<pre>
 81 : (1,53.38,€45) (2,88.62,€98) (3,78.48,€3) (4,72.30,€76) (5,30.18,€9) (6,46.34,€48)
 8 : (1,15.3,€34)
 75 : (1,85.31,€29) (2,14.55,€74) (3,3.98,€16) (4,26.24,€55) (5,63.69,€52) (6,76.25,€75) (7,60.02,€74) (8,93.18,€35) (9,89.95,€78)
-
+</pre>
 Output Format
 -------------
 The library returns a solution string for each test case. Each solution is represented by a new row in the output string. The indexes of the selected items are separated by commas. If no items can be selected, a hyphen (-) is used.
 
 Example:
-
+<pre>
 4
 
--
+\-
 
 2,7
 
 8,9
+</pre>
 
 Exceptions
 ----------
